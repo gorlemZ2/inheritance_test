@@ -1,6 +1,6 @@
 organization := "mohole.it"
 
-name := "Exercises Lez2"
+name := "Exercises Lez3"
 
 version := "1.0-SNAPSHOT"
 scalaVersion := "2.11.7"

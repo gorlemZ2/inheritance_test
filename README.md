@@ -23,10 +23,9 @@ Implementare un metodo `puoAbitare` che, prendendo in input un oggetto Villetta,
 > se l'inquilino in questione può abitarci. Un inquilino può abitare nella Villetta se 
 >e solo se il suo stipendio incrementato di 300 euro (uno deve pur vivere...) è maggiore
 > o uguale al canone di affitto diviso il numero di inquilini che ci vivrebbero, compreso lui.
->
+
 - output desiderato:
-<br/>
-![Alt text](src/resources/esempioTrilocale.png?raw=true "Esempio")
+>![Output](src/resources/esempioTrilocale.png?raw=true "Esempio")
 
 ************
 
@@ -44,8 +43,7 @@ Implementare un metodo `puoAbitare` che, prendendo in input un oggetto Villetta,
 >aggiunge un voto all'alunno e, se la sua media è superiore a 8, allora avrà anche la lode.
 
 - output desiderato:
-<br/>
-![Alt text](src/resources/esempioScuola.png?raw=true "Esempio")
+>![Output](src/resources/esempioScuola.png?raw=true "Esempio")
 
 
 ## INDICAZIONI E CONSIGLI

@@ -1,6 +1,5 @@
-TEST 09/03 PARZIALE DI PROGRAMMAZIONE JAVA SULL'EREDITARIETÀ
-
-###ESERCIZIO 0    
+## TEST 09/03 PARZIALE DI PROGRAMMAZIONE JAVA SULL'EREDITARIETÀ
+### ESERCIZIO 0    
 - 0.1 
  >Creare una classe `Edificio`, che prende in input come parametri due interi
 che rappresentano la capienza e l'anno di costruzione, e una stringa indirizzo.
@@ -8,7 +7,8 @@ Creare una classe `Persona` che ha come caratteristiche il nome e il cognome, e 
 `dettagli` che restituisce una STRINGA.
 
 ************
-###ESERCIZIO 1
+
+### ESERCIZIO 1
 - 1.1 
 >Creare una classe `Villetta` che è anche un Edificio: oltre alle caratteristiche 
   della sua superclasse, ha anche un riferimento al numero di inquilini e un riferimento al   
@@ -29,7 +29,8 @@ Implementare un metodo `puoAbitare` che, prendendo in input un oggetto Villetta,
 ![Alt text](src/resources/esempioTrilocale.png?raw=true "Esempio")
 
 ************
-###ESERCIZIO 2
+
+### ESERCIZIO 2
 - 2.1
 >Creare una classe `Alunno` che estende Persona. Nei suoi attributi, deve eesserci una lista di
 > Integer che rappresenta i voti dello studente e un valore che ci dice se l'annunno ha preso
@@ -47,7 +48,8 @@ Implementare un metodo `puoAbitare` che, prendendo in input un oggetto Villetta,
 ![Alt text](src/resources/esempioScuola.png?raw=true "Esempio")
 
 
-##INDICAZIONI E CONSIGLI
+## INDICAZIONI E CONSIGLI
+
 - Potete modificare i file "Main", ma SOLO IN LOCALE. Non committate modifiche ai Main. 
 Il mio consiglio è quello di COMMENTARE e NON MODIFICARE le righe di codice del main 
 che non vi permettono di testare il vostro codice. Il vostro compito dovrà compilare 

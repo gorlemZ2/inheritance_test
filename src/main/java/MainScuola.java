@@ -2,10 +2,18 @@ public class MainScuola {
 
     public static void main(String[] args) {
 
+        /**
+         * sono una prof semplice...
+         */
+
         Professore proffe= new Professore("Andrea", "Gorletta");
 
         Alunno oscar = new Alunno("Oscar", "Alberini");
         Alunno gigi = new Alunno("Gigi", "Gattini");
+
+        /**
+         * ...valuto gli alunni da 1 a 10
+         */
 
         proffe.valuta(oscar, 6);
         proffe.valuta(oscar, 10);

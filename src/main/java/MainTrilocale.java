@@ -21,7 +21,7 @@ public class MainTrilocale {
         /**
          * Si presenta Mr. Precario.
          */
-        Inquilino precario= new Inquilino("Alice", "Rossi", 500);
+        Inquilino precario= new Inquilino("Precario", "Rossi", 500);
         inquiliniPossibili.add(precario);
 
         /**
@@ -29,6 +29,7 @@ public class MainTrilocale {
          */
         System.out.println("Nel trilocale abitano: " + villetta.getNumeroInquilini() + " inquilini.");
         abitareQui(inquiliniPossibili, villetta);
+        inquiliniPossibili.remove(precario);
 
 
         System.out.println("\nSi propone come inquilino un signore distinto ....\n");

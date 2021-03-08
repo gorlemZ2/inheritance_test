@@ -24,7 +24,9 @@ Implementare un metodo `puoAbitare` che, prendendo in input un oggetto Villetta,
 >e solo se il suo stipendio incrementato di 300 euro (uno deve pur vivere...) è maggiore
 > o uguale al canone di affitto diviso il numero di inquilini che ci vivrebbero, compreso lui.
 >
-
+- output desiderato:
+<br/>
+![Alt text](src/resources/esempioTrilocale.png?raw=true "Esempio")
 
 ************
 ###ESERCIZIO 2

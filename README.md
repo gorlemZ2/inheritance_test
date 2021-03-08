@@ -53,7 +53,7 @@ Il mio consiglio è quello di COMMENTARE e NON MODIFICARE le righe di codice del
 che non vi permettono di testare il vostro codice. Il vostro compito dovrà compilare 
 con questi file, quindi leggeteli  bene e cercate di capirli man mano che implementate le classi.
 - Non è necessario dividere gli esercizi in due package, ma se volete farlo controllate sempre di
-aver scritto le istruzioni `include` per ogni classe per cui è necessario (anche i main, in questo caso).
+aver scritto le istruzioni `import` per ogni classe per cui è necessario (anche i main, in questo caso).
 - Sarò severa nella correzione se trovo dei file `.class` committati e pushati.
 - PRIMA DI FARE L'ULTIMO PUSH, controllate bene i vostri file e assicuratevi che tutto compili.
 - Per qualsiasi dubbio scrivetemi pure in chat.

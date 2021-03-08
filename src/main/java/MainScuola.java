@@ -1,8 +1,3 @@
-
-
-
-
-
 public class MainScuola {
 
     public static void main(String[] args) {

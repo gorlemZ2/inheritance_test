@@ -12,13 +12,13 @@ public class Main {
         for (int i = 0; i < macchine.length; i++)
         somma += macchine[i];
         double media = ((double) somma) / macchine.length;
-        System.out.println(media);
         return media;
     }
 
 
 
     public static void main(String[] args) {
+
 
         /**
          * istanziare 10 veicoli con diverse velocità e diverso numero di ruote (max 4 LOL)
@@ -51,9 +51,8 @@ public class Main {
             macchine.add(macchina9);
             macchine.add(macchina10);
 
-            // System.out.println(macchine);
-
             int listaVelocita[] = new int [10];
+
 
         /**
          *  Stamapre, attraverso un ciclo FOR che analizza TUTTI E DIECI gli oggetti,
@@ -64,20 +63,27 @@ public class Main {
         for(int i = 0; i < macchine.size(); i++){
            
             // prendere velocità di tutti
-            listaVelocita[i] = macchine.get(i).velocita;
+            listaVelocita[i] = macchine.get(i).getVelocita();
 
             // Pushare dentro lista velocità e fare la media
         };
 
         double avg = media(listaVelocita);
 
+        System.out.println("Veicoli con velocità superiore alla media: " + avg);
+
+
         for(int i = 0; i < macchine.size(); i++){
            
-            if(macchine.get(i).velocita > avg){
-                System.out.println("Questa macchina è una " + macchine.get(i).nome + " ed ha " + macchine.get(i).ruote + " ruote" );
+            if(macchine.get(i).getVelocita() > avg){
+                // System.out.println("Questa macchina è una " + macchine.get(i).nome + " ed ha " + macchine.get(i).ruote + " ruote" );
+                System.out.println(macchine.get(i).dettagli());
+
             }
         }
 
+
+        System.out.println("Macchine con 4 ruote:");
 
         /**
          *  Stamapre, attraverso un ciclo WHILE che analizza TUTTI E DIECI gli oggetti,
@@ -86,8 +92,10 @@ public class Main {
 
         int i = 0;
         while(i < macchine.size()){
-            if(macchine.get(i).ruote == 4){
-                System.out.println(macchine.get(i).nome + " ha 4 ruote");
+            if(macchine.get(i).getRuote() == 4){
+                // System.out.println(macchine.get(i).nome + " ha 4 ruote");
+                System.out.println(macchine.get(i).dettagli());
+
             }
             i++;
         }
